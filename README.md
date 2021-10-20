@@ -9,7 +9,7 @@ This is an university  fun project .  main perpose of this project is to  create
 2.	To remake the 3D object after scanning.
 
 
-#Components
+# Components
 
 * 1 x Arduino Uno/Nano
 * 2 x NEMA17 Stepper Motors
