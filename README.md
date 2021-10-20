@@ -44,6 +44,21 @@ This is an university  fun project .  main perpose of this project is to  create
    
 # demo result 
 
+# Methodology
+
+<p>The push button is used to start the scanning process. We have connected Vref to 3.3V. Because maximum voltage of the sensor is 2.4V. To increase precision we use external voltage reference for thr Ac to DC conversion. We have connected all the components on a breadboard. There are two 47uF capacitors for each of the motor drivers.
+This machine will be able to scan small 3D objects. We will place a small 3D object on a rotating table in its own axis. The table will rotate horizontally with the small 3D object on it by using a NEMA17 motor. Another NEMA17 motor will be used to move the IR sensor vertically while the table is rotating horizontally with the 3D object.
+The distance between sensor and center of the turning table is 8cm. The turning table rotates 360/200 = 1.8 degree at a time to make 200 steps. The sensor measure the distance from the sensor to object point. If we subtract the measured distance from the distance between sensor and center of the turning table we get the distance between the object point and the center of the turning table. The IR sensor will give a direct analog output according to the measured distance between 0 and 1023. We can convert it to voltage by the following formula and then convert it to distance.
+				Voltage = (Analog Output * 3.3)/1023
+Distance = -5.40274*pow(Voltage, 3) + 28.4823*pow(Voltage, 2) – 49.7115*Voltage + 31.3444
+We found these formula from the datasheet of the sensor. The distance can be thought of as hypotenuse of a triangle. So
+					x = sin(1.8 degree) * Distance
+					y = cos(1.8 degree) * Distance
+The z axis will be measured from 0 to 12 cm adding 2mm each time.<\p>
+
+
+# References
+
 I have to learn many thing about arduino around hole internet as I don’t have any basic knowledge about Arduino all the references links are given below    
 *	https://www.makerguides.com/sharp-gp2y0a710k0f-ir-distance-sensor-arduino-tutorial/ (IR sensor) 
 *	https://www.youtube.com/watch?v=0qwrnUeSpYQ (stepper motor )
@@ -58,7 +73,7 @@ I have to learn many thing about arduino around hole internet as I don’t have 
  
 
 
-# References
+
 
   
 
