@@ -42,7 +42,7 @@ This is an university  fun project .  main perpose of this project is to  create
 
 <p align="right"><img src="connection diagram.png"\></p>
    
-# demo result 
+
 
 # Methodology
 
@@ -54,8 +54,26 @@ Distance = -5.40274*pow(Voltage, 3) + 28.4823*pow(Voltage, 2) – 49.7115*Voltag
 We found these formula from the datasheet of the sensor. The distance can be thought of as hypotenuse of a triangle. So
 					x = sin(1.8 degree) * Distance
 					y = cos(1.8 degree) * Distance
-The z axis will be measured from 0 to 12 cm adding 2mm each time.<\p>
+The z axis will be measured from 0 to 12 cm adding 2mm each time.
+	
+	
+# Results and discussion
+	
+The IR sensor will scan the 3D object during these motion and will save the data on a SD card. Four linear bearing, one threaded rod and two smooth rod will be used along with NEMA17 motor to move the IR sensor vertically. After completing the scanning we will remove the SD card and copy the text file of scanned data saved on SD card to a computer. We will import the text file in MESHLAB using MESHLAB we will generate the 3D image of the object in STL or OBJ format. Using that STL or OBJ file we can print the 3D object by a 3D printer..
+	
+### output 	
+<p align="right"><img src="connection diagram.png"\></p>
 
+
+### output voltage 
+
+
+<p align="right"><img src="connection diagram.png"\></p>
+
+
+	
+	
+	
 
 # References
 
