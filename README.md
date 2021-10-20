@@ -35,10 +35,14 @@ This is an university  fun project .  main perpose of this project is to  create
   
 # connection 
   
-
+<p align="right"><img src="result2.jpg"\></p>
   
 # 3D print component 
+
+<p align="right"><img src="result2.jpg"\></p>
    
 # demo result 
+
+<p align="right"><img src="result2.jpg"\></p>
   
 
