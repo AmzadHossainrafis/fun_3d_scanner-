@@ -62,13 +62,13 @@ The z axis will be measured from 0 to 12 cm adding 2mm each time.
 The IR sensor will scan the 3D object during these motion and will save the data on a SD card. Four linear bearing, one threaded rod and two smooth rod will be used along with NEMA17 motor to move the IR sensor vertically. After completing the scanning we will remove the SD card and copy the text file of scanned data saved on SD card to a computer. We will import the text file in MESHLAB using MESHLAB we will generate the 3D image of the object in STL or OBJ format. Using that STL or OBJ file we can print the 3D object by a 3D printer..
 	
 ### output 	
-<p align="right"><img src="connection diagram.png"\></p>
+<p align="right"><img src="tout.png"\></p>
 
 
 ### output voltage 
 
 
-<p align="right"><img src="connection diagram.png"\></p>
+<p align="right"><img src="voltage.png"\></p>
 
 
 	
