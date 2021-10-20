@@ -44,6 +44,21 @@ This is an university  fun project .  main perpose of this project is to  create
    
 # demo result 
 
+I have to learn many thing about arduino around hole internet as I don’t have any basic knowledge about Arduino all the references links are given below    
+*	https://www.makerguides.com/sharp-gp2y0a710k0f-ir-distance-sensor-arduino-tutorial/ (IR sensor) 
+*	https://www.youtube.com/watch?v=0qwrnUeSpYQ (stepper motor )
+*	https://www.arduino.cc/en/tutorial/stepperSpeedControl (stepper motor )
+
+*	https://create.arduino.cc/projecthub/electropeak/sd-card-module-with-arduino-how-to-read-write-data-37f390(SD card )
+
+* https://www.youtube.com/watch?v=d8_xXNcGYgo&list=PLGs0VKk2DiYx6CMdOQR_hmJ2NbB4mZQn-(arduino tutorial )
+
+* https://www.youtube.com/watch?v=sS_oW81NweI (sd card module connection )
+
+ 
+
+
+# References
 
   
 
