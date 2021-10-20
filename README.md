@@ -36,10 +36,11 @@ This is an university  fun project .  main perpose of this project is to  create
 # connection 
   
 <p align="right"><img src="result2.jpg"\></p>
+<p align="right"><img src="Front_motor_top.stl"\></p>
   
 # 3D print component 
 
-<p align="right"><img src="result2.jpg"\></p>
+
    
 # demo result 
 
