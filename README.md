@@ -35,8 +35,11 @@ This is an university  fun project .  main perpose of this project is to  create
   
 
 # 3D print component   
-<p align="right"><img src="result2.jpg"\></p>
-<p align="right"><img src="Front_motor_top.stl"\></p>
+
+[example 1 ->](https://github.com/AmzadHossainrafis/fun_3d_scanner-/blob/master/Base_body.stl)
+[example 2 ->](https://github.com/AmzadHossainrafis/fun_3d_scanner-/blob/master/Coupler.stl)
+
+
   
 # connection 
 
